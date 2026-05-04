@@ -3,7 +3,7 @@ import {Box, Container, Typography, Slider, Stack, Button, Paper, Link, TextFiel
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import { motion } from "framer-motion";
 import Mortgage from "../../components/Mortgage/Mortgage";
-import Faq from "../../components/Faq/Faq";
+import Faq from "../../components/FAQ/Faq";
 import ipotekaHero from "../../assets/images/ipoteka-hero.jpg";
 
 const sliderSx = {

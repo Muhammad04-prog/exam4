@@ -1,0 +1,20 @@
+import { lazy } from "react";
+
+export const Home = lazy(() => import("../pages/Home/Home"));
+export const About = lazy(() => import("../pages/About/About"));
+export const Contacts = lazy(() => import("../pages/Contacts/Contacts"));
+export const Details = lazy(() => import("../pages/Details/Details"));
+export const Smi = lazy(() => import("../pages/SMI/smi"));
+export const SmiDetails = lazy(() => import("../pages/SMI/SmiDetails"));
+export const Izum = lazy(() => import("../pages/Izumrud/izum"));
+export const IQClub = lazy(() => import("../pages/IQ-club/iq-club"));
+export const Usadi = lazy(() => import("../pages/Usadi/usadi"));
+export const Zim = lazy(() => import("../pages/Zim/zim"));
+export const Konstant = lazy(() => import("../pages/Konstant/konstant"));
+export const Projects = lazy(() => import("../pages/Projects/projects"));
+export const Team = lazy(() => import("../pages/Team/team"));
+export const One = lazy(() => import("../pages/One/one"));
+export const Two = lazy(() => import("../pages/Two/two"));
+export const Town = lazy(() => import("../pages/Town/town"));
+export const Houses = lazy(() => import("../pages/Houses/houses"));
+export const InfoHouse = lazy(() => import("../pages/InfoHouse/infohouse"));

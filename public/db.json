@@ -1,0 +1,206 @@
+{
+  "oneStoryHouses": [
+    {
+      "id": 1,
+      "name": "Win-1",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "5,1 сот.",
+      "tech": "ИЖС",
+      "floors": 1,
+      "rooms": 5,
+      "image": "/src/assets/images/Rectangle 122 (1).png"
+    },
+    {
+      "id": 2,
+      "name": "Win-2",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "5,1 сот.",
+      "tech": "ИЖС",
+      "floors": 1,
+      "rooms": 5,
+      "image": "/src/assets/images/Rectangle 122 (2).png"
+    },
+    {
+      "id": 3,
+      "name": "Win-3",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "5,1 сот.",
+      "tech": "ИЖС",
+      "floors": 1,
+      "rooms": 5,
+      "image": "/src/assets/images/Rectangle 122 (3).png"
+    },
+    {
+      "id": 4,
+      "name": "Win-4",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "5,1 сот.",
+      "tech": "ИЖС",
+      "floors": 1,
+      "rooms": 5,
+      "image": "/src/assets/images/Rectangle 122 (4).png"
+    },
+    {
+      "id": 5,
+      "name": "Win-5",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "5,1 сот.",
+      "tech": "ИЖС",
+      "floors": 1,
+      "rooms": 5,
+      "image": "/src/assets/images/Rectangle 122 (5).png"
+    },
+    {
+      "id": 6,
+      "name": "Win-6",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "5,1 сот.",
+      "tech": "ИЖС",
+      "floors": 1,
+      "rooms": 5,
+      "image": "/src/assets/images/Rectangle 122 (6).png"
+    }
+  ],
+  "twoStoryHouses": [
+    {
+      "id": 1,
+      "name": "Win-1",
+      "price": 15800000,
+      "area": "189,2 м2",
+      "land": "6,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 6,
+      "image": "/src/assets/images/Rectangle 122 (7).png"
+    },
+    {
+      "id": 2,
+      "name": "Win-2",
+      "price": 15800000,
+      "area": "189,2 м2",
+      "land": "6,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 6,
+      "image": "/src/assets/images/Rectangle 37 (7).png"
+    },
+    {
+      "id": 3,
+      "name": "Win-3",
+      "price": 15800000,
+      "area": "189,2 м2",
+      "land": "6,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 6,
+      "image": "/src/assets/images/Rectangle 122 (8).png"
+    },
+    {
+      "id": 4,
+      "name": "Win-4",
+      "price": 15800000,
+      "area": "189,2 м2",
+      "land": "6,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 6,
+      "image": "/src/assets/images/Rectangle 122 (9).png"
+    },
+    {
+      "id": 5,
+      "name": "Win-5",
+      "price": 15800000,
+      "area": "189,2 м2",
+      "land": "6,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 6,
+      "image": "/src/assets/images/Rectangle 37 (5).png"
+    },
+    {
+      "id": 6,
+      "name": "Win-6",
+      "price": 15800000,
+      "area": "189,2 м2",
+      "land": "6,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 6,
+      "image": "/src/assets/images/Rectangle 122 (10).png"
+    }
+  ],
+  "townhouses": [
+    {
+      "id": 1,
+      "name": "Win-1",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "3,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 4,
+      "image": "/src/assets/images/about-house.png"
+    },
+    {
+      "id": 2,
+      "name": "Win-2",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "3,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 4,
+      "image": "/src/assets/images/zimnaya-gorka.png"
+    },
+    {
+      "id": 3,
+      "name": "Win-3",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "3,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 4,
+      "image": "/src/assets/images/izumrudny.png"
+    },
+    {
+      "id": 4,
+      "name": "Win-4",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "3,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 4,
+      "image": "/src/assets/images/unique-arch.png"
+    },
+    {
+      "id": 5,
+      "name": "Win-5",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "3,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 4,
+      "image": "/src/assets/images/Rectangle 37 (4).png"
+    },
+    {
+      "id": 6,
+      "name": "Win-6",
+      "price": 13800000,
+      "area": "139,8 м2",
+      "land": "3,5 сот.",
+      "tech": "ИЖС",
+      "floors": 2,
+      "rooms": 4,
+      "image": "/src/assets/images/Rectangle 37 (2).png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contacts": "Contacts",
+    "houses": "Houses",
+    "mortgage": "Mortgage",
+    "smi": "SMI",
+    "projects": "Our Projects",
+    "all_projects": "All Projects",
+    "team": "Team",
+    "one_story": "One-story",
+    "two_story": "Two-story",
+    "townhouses": "Townhouses",
+    "all_houses": "All houses",
+    "news": "News"
+  },
+  "home": {
+    "hero_title": "CONSTRUCTING YOUR DREAM HOUSE",
+    "hero_subtitle": "We build houses, cottage settlements and townhouses in Kazan",
+    "hero_subtitle_short": "Construction company",
+    "learn_more": "Learn more about projects",
+    "ask_question": "Ask a question",
+    "watch_video": "Watch video",
+    "order_call": "Order a call"
+  },
+  "about": {
+    "title": "About Company",
+    "description": "Win Dom is a leading construction company specializing in premium house construction."
+  },
+  "contacts": {
+    "title": "Central Sales Office",
+    "address": "Republic of Tatarstan, Kazan, Yarkaya str, 31B",
+    "callback": "Consultation",
+    "manager_contact": "Our manager will contact you shortly",
+    "name_placeholder": "Your name",
+    "phone_placeholder": "Phone",
+    "get_consultation": "Get consultation",
+    "consent": "By clicking the button, you confirm your consent to the processing of personal data"
+  },
+  "smi": {
+    "title": "SMI about us",
+    "read_more": "Read more"
+  }
+}

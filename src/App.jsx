@@ -1,6 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./layout/Layout";
-import { About, Contacts, Details, Home, Smi, SmiDetails, Izum, InfoHouse } from "./router/router";
+import { 
+  About, Contacts, Details, Home, Smi, SmiDetails, Izum, InfoHouse,
+  One, Two, Town, Houses
+} from "./router/router";
 import { Suspense } from "react";
 import ErrorBoundary from "./provider/ErrorBoundary/ErrorBoundary";
 import NotFound from "./pages/Notfound/NotFound";
@@ -10,12 +13,8 @@ import Usadi from "./pages/Usadi/usadi";
 import Zim from "./pages/Zim/zim";
 import Konstant from "./pages/Konstant/konstant";
 import Projects from "./pages/Projects/projects";
-import Team from "./pages/Team/team";
+import TeamPage from "./pages/Team/team";
 import Loading from "./components/Loader/Loader";
-import One from "./pages/One/one";
-import Two from "./pages/Two/two";
-import Town from "./pages/Town/town";
-import Houses from "./pages/Houses/houses";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -158,7 +157,7 @@ export default function App() {
           element: (
             <Suspense fallback={<Loading />}>
               <ErrorBoundary>
-                <Team />
+                <TeamPage />
               </ErrorBoundary>
             </Suspense>
           ),
@@ -170,49 +169,49 @@ export default function App() {
               <ErrorBoundary>
                 <One />
               </ErrorBoundary>
-              </Suspense>
-            ),
-            },
-            {
-              path: "two",
-              element: (
-                <Suspense fallback={<Loading />}>
-                  <ErrorBoundary>
-                    <Two />
-                  </ErrorBoundary>
-                </Suspense>
-              ),
-            },
-            {
-              path: "town",
-              element: (
-                <Suspense fallback={<Loading />}>
-                  <ErrorBoundary>
-                    <Town />
-                  </ErrorBoundary>
-                </Suspense>
-              ),
-            },
-            {
-              path: "houses",
-              element: (
-                <Suspense fallback={<Loading />}>
-                  <ErrorBoundary>
-                    <Houses />
-                  </ErrorBoundary>
-                </Suspense>
-              ),
-            },
-            {
-              path: "info/:id",
-              element: (
-                <Suspense fallback={<Loading />}>
-                  <ErrorBoundary>
-                    <InfoHouse />
-                  </ErrorBoundary>
-                </Suspense>
-              ),
-            },
+            </Suspense>
+          ),
+        },
+        {
+          path: "two",
+          element: (
+            <Suspense fallback={<Loading />}>
+              <ErrorBoundary>
+                <Two />
+              </ErrorBoundary>
+            </Suspense>
+          ),
+        },
+        {
+          path: "town",
+          element: (
+            <Suspense fallback={<Loading />}>
+              <ErrorBoundary>
+                <Town />
+              </ErrorBoundary>
+            </Suspense>
+          ),
+        },
+        {
+          path: "houses",
+          element: (
+            <Suspense fallback={<Loading />}>
+              <ErrorBoundary>
+                <Houses />
+              </ErrorBoundary>
+            </Suspense>
+          ),
+        },
+        {
+          path: "info/:id",
+          element: (
+            <Suspense fallback={<Loading />}>
+              <ErrorBoundary>
+                <InfoHouse />
+              </ErrorBoundary>
+            </Suspense>
+          ),
+        },
       ],
     },
     {
